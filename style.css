@@ -1,0 +1,91 @@
+body{
+    margin-left: 200px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-right: 100px;
+    
+}
+header{
+    align-items: center;
+}
+nav{
+    display:flex;
+    align-items: center;
+}
+ol{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    margin-left: 150px;
+    margin-right: 100px;
+}
+li{
+    margin-right: 30px;
+}
+li:hover{
+    font: 1em sans-serif;
+    cursor: pointer;
+    font-weight: bold;
+}
+nav,h3 {
+    margin-right: 10px;
+}
+.sp1{
+    color: orangered;
+}
+h3{
+    font-weight: 500;
+    justify-content: center;
+}
+.div1{
+    display: flex;
+    align-items: center;
+    
+}
+.sigin{
+    border: 15px solid;
+    border-color:rgb(255, 68, 0);
+    border-radius: 20%;
+    background-color: rgb(255, 68, 0);
+    color: white;
+    margin-left: 5px;
+}
+main{
+    display: flex;
+    gap: 100px;
+    align-items: center;
+}
+#p1{
+    font-size: 50px;
+}
+#sec3{
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px wheat;
+    justify-content: space-between;
+}
+td,th{
+    padding-right: 120px;
+    justify-items:start;
+}
+
+aside{
+    background-image:url("header-bg.png");
+    background-size: cover;
+    border-radius:90%;
+    justify-content: center;
+    width: 400px;
+    height: 400px;
+    
+}
+img{
+    width:350px;
+}
+.pfoot{
+    color: gainsboro;
+}
+#p2{
+    font-size: 20px;
+}
+
